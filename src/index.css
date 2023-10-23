@@ -1,0 +1,16 @@
+:root {
+  --georgian-font: "BPG ExtraSquare Mtavruli", sans-serif;
+  --georgian-font2: "BPG Glaho Traditional", sans-serif;
+  --english-font: "Pathway Gothic One", sans-serif;
+  --header-font-size: 20px;
+  --paragraph-font-size: 15px;
+  --text-color: #26252c;
+}
+
+body {
+  background-color: #fdf3f3;
+}
+
+main {
+  margin-top: 70px;
+}

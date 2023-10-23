@@ -1,0 +1,24 @@
+.about-padel-banner {
+  width: 100%;
+}
+
+.about-padel-content {
+  padding: 20px;
+}
+
+.about-padel-content h1 {
+  font-family: var(--georgian-font);
+  font-size: var(--header-font-size);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-padel-content p {
+  font-family: var(--georgian-font2);
+  font-size: var(--paragraph-font-size);
+  line-height: 23px;
+  letter-spacing: 0.7px;
+  margin-top: 20px;
+  text-align: start;
+}
