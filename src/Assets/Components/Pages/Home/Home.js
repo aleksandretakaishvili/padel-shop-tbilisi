@@ -11,7 +11,7 @@ function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={MainImg} />
+          <img src={MainImg} alt="" />
         </a>
       </div>
     </main>

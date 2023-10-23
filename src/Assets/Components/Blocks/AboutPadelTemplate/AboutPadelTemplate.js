@@ -6,7 +6,7 @@ function AboutPadelTemplate(props) {
 
   return (
     <div>
-      <img src={img} alt="About Page Banner" className="about-padel-banner" />
+      <img src={img} alt="" className="about-padel-banner" />
       <div className="about-padel-content">
         <h1>{h1}</h1>
         <p>{p}</p>

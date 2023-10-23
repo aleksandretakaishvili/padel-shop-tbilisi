@@ -6,7 +6,7 @@ function ProductCard(props) {
 
   return (
     <div className="product-card-container">
-      <img src={imgUrl} alt="product image" />
+      <img src={imgUrl} alt="" />
       <div className="product-info">
         <h1>
           {brand} {name}
