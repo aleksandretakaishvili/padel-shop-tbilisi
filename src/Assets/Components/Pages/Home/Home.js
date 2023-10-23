@@ -13,7 +13,6 @@ function Home() {
         >
           <img src={MainImg} alt="" />
         </a>
-        <div>bichoba</div>
       </div>
     </main>
   );
