@@ -3,7 +3,7 @@
 }
 
 .product-wrapper {
-  padding: 15px;
+  padding: 20px;
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
