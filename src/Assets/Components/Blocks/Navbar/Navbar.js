@@ -81,6 +81,7 @@ function Navbar() {
             <a
               href="https://www.instagram.com/padel_shop_tbilisi/?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
               target="_blank"
+              rel="noreferrer"
             >
               <TfiInstagram />
               <p>padel_shop_tbilisi</p>
