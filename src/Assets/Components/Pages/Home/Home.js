@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import "./Home.css";
 import banner1 from "../../../Images/mainbanner2.png";
 import banner2 from "../../../Images/products-banner.png";
@@ -14,11 +14,12 @@ function Home() {
     );
   };
 
-  const previousImage = () => {
-    setCurrentImgIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
+  useEffect(() => {
+    const interval = setInterval(nextImage, 3000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [currentImgIndex]);
 
   return (
     <main className="home-container">
@@ -30,8 +31,6 @@ function Home() {
         >
           <img src={images[currentImgIndex]} alt="" />
         </a>
-        <button onClick={previousImage}>უკანა</button>
-        <button onClick={nextImage}>შემდეგი</button>
       </div>
     </main>
   );

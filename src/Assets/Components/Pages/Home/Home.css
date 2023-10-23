@@ -1,4 +1,5 @@
 .home-container div img {
   max-width: 100%;
+  animation-name: open;
   transition: opacity 0.5s ease-in-out;
 }
