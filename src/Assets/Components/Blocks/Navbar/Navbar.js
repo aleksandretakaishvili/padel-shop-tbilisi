@@ -40,7 +40,7 @@ function Navbar() {
         </div>
         <div className="logo">
           <Link to="/">
-            <img src={Logo} alt="logo" />
+            <img src={Logo} />
           </Link>
         </div>
         <div className="social-icons">
