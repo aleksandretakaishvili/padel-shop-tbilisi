@@ -4,7 +4,8 @@
 
 .product-wrapper {
   padding: 15px;
-  display: inline-grid;
+  display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 30px;
+  justify-content: space-between;
+  grid-gap: 50px;
 }

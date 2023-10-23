@@ -8,7 +8,7 @@ function AboutPadel() {
   return (
     <main>
       {padelsData.map((padelData) => (
-        <AboutPadelTemplate key={padelData.length} padel={padelData} />
+        <AboutPadelTemplate key={padelData.id} padel={padelData} />
       ))}
     </main>
   );
