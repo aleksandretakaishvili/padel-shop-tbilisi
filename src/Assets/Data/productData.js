@@ -2,7 +2,7 @@ import wislonBelaPro from "../Images/wilson-bela-pro.png";
 import babolatCounterVertuo from "../Images/babolat-counter-vertuo.png";
 import babolatAirVertuo from "../Images/babolat-air-vertuo.png";
 
-export default {
+const productData = {
   products: [
     {
       id: "1",
@@ -38,3 +38,5 @@ export default {
     },
   ],
 };
+
+export default productData;

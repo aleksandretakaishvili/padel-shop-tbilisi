@@ -1,10 +1,10 @@
 import React from "react";
 import "./About.css";
 import AboutPadelTemplate from "../../Blocks/AboutPadelTemplate/AboutPadelTemplate";
-import aboutPadelData from "../../../Data/aboutPadelData";
+import aboutData from "../../../Data/aboutPadelData";
 
 function AboutPadel() {
-  const padelsData = aboutPadelData.about;
+  const padelsData = aboutData.about;
   return (
     <main>
       {padelsData.map((padelData) => (

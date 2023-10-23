@@ -1,7 +1,7 @@
 import aboutBanner from "../Images/what-is-padel.jpg";
 import padelCourtImg from "../Images/padel-court.jpg";
 
-export default {
+const aboutData = {
   about: [
     {
       img: aboutBanner,
@@ -21,3 +21,5 @@ export default {
     },
   ],
 };
+
+export default aboutData;
