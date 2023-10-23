@@ -5,7 +5,7 @@ import Navbar from "./Assets/Components/Blocks/Navbar/Navbar";
 import Home from "./Assets/Components/Pages/Home/Home";
 import Product from "./Assets/Components/Pages/Products/Product";
 import AboutPadel from "./Assets/Components/Pages/AboutPadel/About";
-
+import Footer from "./Assets/Components/Blocks/Footer/Footer";
 function App() {
   return (
     <div>
@@ -15,6 +15,7 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/what-is-padel" element={<AboutPadel />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

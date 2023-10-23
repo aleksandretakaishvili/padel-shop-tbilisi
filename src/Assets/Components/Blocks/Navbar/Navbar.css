@@ -15,10 +15,6 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.shadow2 {
-  box-shadow: inset 200px 200px 0px 200px rgba(0, 0, 0, 0.31);
-}
-
 .burger-icon svg {
   color: #26252c;
   font-size: 30px;
@@ -52,6 +48,12 @@ nav {
   transition: left 0.6s ease-in-out;
 }
 
+.open {
+  left: 0;
+  animation-name: open;
+  animation-duration: 0.7s;
+}
+
 nav ul {
   width: 100%;
   margin-top: 50px;
@@ -73,10 +75,8 @@ nav ul li a {
   justify-content: flex-start;
 }
 
-.open {
-  left: 0;
-  animation-name: open;
-  animation-duration: 0.7s;
+.active {
+  color: #cd4448;
 }
 
 .bottom-info {

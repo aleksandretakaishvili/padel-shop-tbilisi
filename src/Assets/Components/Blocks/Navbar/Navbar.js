@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Logo from "../../../Images/logo2.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
@@ -57,19 +57,31 @@ function Navbar() {
       <nav className={isOpen ? "open" : "close"}>
         <ul>
           <li>
-            <Link to="/" onClick={burgerClickHandler}>
+            <NavLink
+              to="/"
+              activeClassName="active"
+              onClick={burgerClickHandler}
+            >
               მთავარი
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/product" onClick={burgerClickHandler}>
+            <NavLink
+              to="/product"
+              activeClassName="active"
+              onClick={burgerClickHandler}
+            >
               პროდუქცია
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/what-is-padel" onClick={burgerClickHandler}>
+            <NavLink
+              to="/what-is-padel"
+              activeClassName="active"
+              onClick={burgerClickHandler}
+            >
               რა არის პადელი ?
-            </Link>
+            </NavLink>
           </li>
         </ul>
         <div className="bottom-info">
