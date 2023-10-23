@@ -6,7 +6,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #97bcc7;
+  background-color: var(--main-color);
+  /* border-bottom: 1px #fdf4f5 solid; */
   padding: 15px;
   z-index: 999;
 }
