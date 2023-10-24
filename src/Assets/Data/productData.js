@@ -9,7 +9,7 @@ const productData = {
       brand: "Wilson",
       name: "Bela Pro",
       weigth: "375",
-      shape: "დაიმონდი",
+      shape: "რაუნდი",
       imgUrl: wislonBelaPro,
     },
     {
@@ -25,7 +25,7 @@ const productData = {
       brand: "Babolat",
       name: "Air Vertuo",
       weigth: "375",
-      shape: "დაიმონდი",
+      shape: "თეარდროპი",
       imgUrl: babolatAirVertuo,
     },
     {

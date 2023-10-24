@@ -59,7 +59,7 @@ function Navbar() {
           <li>
             <NavLink
               to="/"
-              activeClassName="active"
+              activeclassname="active"
               onClick={burgerClickHandler}
             >
               მთავარი
@@ -68,7 +68,7 @@ function Navbar() {
           <li>
             <NavLink
               to="/product"
-              activeClassName="active"
+              activeclassname="active"
               onClick={burgerClickHandler}
             >
               პროდუქცია
@@ -77,7 +77,7 @@ function Navbar() {
           <li>
             <NavLink
               to="/what-is-padel"
-              activeClassName="active"
+              activeclassname="active"
               onClick={burgerClickHandler}
             >
               რა არის პადელი ?
