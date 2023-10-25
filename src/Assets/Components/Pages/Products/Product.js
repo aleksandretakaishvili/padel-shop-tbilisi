@@ -13,6 +13,7 @@ function Product() {
       return product[prop] === value;
     });
     setFilteredItems(filterCondition);
+    setIsClicked((prev) => !prev);
   }
 
   const [isClicked, setIsClicked] = useState(false);
@@ -30,20 +31,9 @@ function Product() {
           {isClicked && (
             <div className="filter">
               <button>ყველა</button>
-              <button>ბაბოლატი</button>
-              <button>ბულპადელი</button>
-              <button>ვილსონი</button>
-            </div>
-          )}
-        </div>
-        <div>
-          <h2 onClick={handle} className={isClicked && `margin-bottom`}>
-            ბრენდი <BsArrowDownShort />
-          </h2>
-          {isClicked && (
-            <div className="filter">
-              <button>ყველა</button>
-              <button>ბაბოლატი</button>
+              <button onClick={() => handleClick("brand", "Babolat")}>
+                ბაბოლატი
+              </button>
               <button>ბულპადელი</button>
               <button>ვილსონი</button>
             </div>
