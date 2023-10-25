@@ -36,6 +36,19 @@ function Product() {
             </div>
           )}
         </div>
+        <div>
+          <h2 onClick={handle} className={isClicked && `margin-bottom`}>
+            ბრენდი <BsArrowDownShort />
+          </h2>
+          {isClicked && (
+            <div className="filter">
+              <button>ყველა</button>
+              <button>ბაბოლატი</button>
+              <button>ბულპადელი</button>
+              <button>ვილსონი</button>
+            </div>
+          )}
+        </div>
       </div>
 
       <div className="product-wrapper">
