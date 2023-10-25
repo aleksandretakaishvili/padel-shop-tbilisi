@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { React, useState } from "react";
 import "./Home.css";
 import banner1 from "../../../Images/mainbanner2.png";
 import banner2 from "../../../Images/products-banner.png";
@@ -14,12 +14,12 @@ function Home() {
     );
   };
 
-  useEffect(() => {
-    const interval = setInterval(nextImage, 3000);
-    return () => {
-      clearInterval(interval);
-    };
-  }, [currentImgIndex]);
+  // useEffect(() => {
+  //   const interval = setInterval(nextImage, 3000);
+  //   return () => {
+  //     clearInterval(interval);
+  //   };
+  // }, [currentImgIndex]);
 
   return (
     <main className="home-container">
