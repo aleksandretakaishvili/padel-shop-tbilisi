@@ -50,6 +50,7 @@ nav {
 }
 
 .open {
+  top: 70px !important;
   left: 0;
   animation-name: open;
   animation-duration: 0.7s;
