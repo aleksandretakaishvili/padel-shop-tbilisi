@@ -54,6 +54,7 @@ nav {
   left: 0;
   animation-name: open;
   animation-duration: 0.7s;
+  z-index: 999;
 }
 
 nav ul {

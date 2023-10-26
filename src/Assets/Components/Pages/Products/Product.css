@@ -1,4 +1,6 @@
 .filter-btns-container {
+  position: fixed;
+  top: 70px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -20,7 +22,7 @@
 
 .active-button {
   color: white;
-  background-color: #352f44;
+  background-color: #26252c;
 }
 
 .product-page-wrapper img {
@@ -33,4 +35,5 @@
   grid-template-columns: auto auto;
   justify-content: space-between;
   grid-gap: 50px;
+  margin-top: 150px;
 }
