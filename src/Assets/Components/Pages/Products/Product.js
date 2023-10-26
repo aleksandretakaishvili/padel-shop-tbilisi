@@ -2,45 +2,68 @@ import { React, useState } from "react";
 import "./Product.css";
 import ProductCard from "../../Blocks/ProductCard/ProductCard";
 import productData from "../../../Data/productData";
-import { BsArrowDownShort } from "react-icons/bs";
 
 function Product() {
   const productsData = productData.products;
 
   const [filteredItems, setFilteredItems] = useState(productsData);
-  function handleClick(prop, value) {
-    const filterCondition = productsData.filter((product) => {
-      return product[prop] === value;
-    });
-    setFilteredItems(filterCondition);
-    setIsClicked((prev) => !prev);
-  }
+  const [activeButton, setActiveButton] = useState("");
 
-  const [isClicked, setIsClicked] = useState(false);
-  function handle() {
-    setIsClicked((prev) => !prev);
+  function handleClick(prop, value) {
+    if (prop) {
+      const filterCondition = productsData.filter((product) => {
+        return product[prop] === value;
+      });
+      setFilteredItems(filterCondition);
+      setActiveButton(value);
+    } else {
+      setFilteredItems(productsData);
+      setActiveButton("");
+    }
   }
 
   return (
     <main className="product-page-wrapper">
-      <div className="filter-container">
-        <div>
-          <h2 onClick={handle} className={isClicked && `margin-bottom`}>
-            ბრენდი <BsArrowDownShort />
-          </h2>
-          {isClicked && (
-            <div className="filter">
-              <button>ყველა</button>
-              <button onClick={() => handleClick("brand", "Babolat")}>
-                ბაბოლატი
-              </button>
-              <button>ბულპადელი</button>
-              <button>ვილსონი</button>
-            </div>
-          )}
-        </div>
+      <div className="filter-btns-container">
+        <button
+          onClick={() => handleClick()}
+          className={
+            activeButton === "" ? "filter-btns active-button" : "filter-btns"
+          }
+        >
+          ყველა
+        </button>
+        <button
+          onClick={() => handleClick("brand", "Babolat")}
+          className={
+            activeButton === "Babolat"
+              ? "filter-btns active-button"
+              : "filter-btns"
+          }
+        >
+          ბაბოლატი
+        </button>
+        <button
+          onClick={() => handleClick("brand", "Bullpadel")}
+          className={
+            activeButton === "Bullpadel"
+              ? "filter-btns active-button"
+              : "filter-btns"
+          }
+        >
+          ბულპადელი
+        </button>
+        <button
+          onClick={() => handleClick("brand", "Wilson")}
+          className={
+            activeButton === "Wilson"
+              ? "filter-btns active-button"
+              : "filter-btns"
+          }
+        >
+          ვილსონი
+        </button>
       </div>
-
       <div className="product-wrapper">
         {filteredItems.map((product) => (
           <ProductCard key={product.id} product={product} />
