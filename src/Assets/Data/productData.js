@@ -1,6 +1,8 @@
 import wislonBelaPro from "../Images/wilson-bela-pro.png";
 import babolatCounterVertuo from "../Images/babolat-counter-vertuo.png";
 import babolatAirVertuo from "../Images/babolat-air-vertuo.png";
+import babolatTechnicalViper from "../Images/babolat-technical-viper.png";
+import bullpadelVertex03 from "../Images/bullpadel-vertex03.png";
 
 const productData = {
   products: [
@@ -31,10 +33,18 @@ const productData = {
     {
       id: "4",
       brand: "Babolat",
-      name: "Counter Vertuo",
+      name: "Technical Viper",
       weigth: "375",
       shape: "დაიმონდი",
-      imgUrl: babolatCounterVertuo,
+      imgUrl: babolatTechnicalViper,
+    },
+    {
+      id: "5",
+      brand: "Bullpadel",
+      name: "Vertex 03",
+      weigth: "375",
+      shape: "დაიმონდი",
+      imgUrl: bullpadelVertex03,
     },
   ],
 };
