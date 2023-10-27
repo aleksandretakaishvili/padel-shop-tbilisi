@@ -1,11 +1,9 @@
 .filter-btns-container {
-  position: fixed;
-  top: 70px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #97bcc7;
+  background-color: #ebebeb;
   padding: 15px;
   overflow-y: scroll;
 }
@@ -13,8 +11,8 @@
 .filter-btns {
   font-family: var(--georgian-font);
   font-size: 13px;
-  color: #352f44;
-  background-color: #97bcc7;
+  color: #0c2a33;
+  background-color: #ebebeb;
   border-radius: 10px;
   border: none;
   padding: 10px;
@@ -22,7 +20,7 @@
 
 .active-button {
   color: white;
-  background-color: #26252c;
+  background-color: #0c2a33;
 }
 
 .product-page-wrapper img {
@@ -35,5 +33,5 @@
   grid-template-columns: auto auto;
   justify-content: space-between;
   grid-gap: 50px;
-  margin-top: 150px;
+  margin-top: 20px;
 }

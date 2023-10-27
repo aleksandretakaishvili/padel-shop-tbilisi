@@ -17,7 +17,7 @@
 }
 
 .burger-icon svg {
-  color: #26252c;
+  color: var(--text-color);
   font-size: 30px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .social-icons a svg {
-  color: #26252c;
+  color: var(--text-color);
   font-size: 25px;
 }
 
