@@ -31,7 +31,7 @@ function Product() {
             activeButton === "" ? "filter-btns active-button" : "filter-btns"
           }
         >
-          ყველა
+          All
         </button>
         <button
           onClick={() => handleClick("brand", "Babolat")}
@@ -41,7 +41,7 @@ function Product() {
               : "filter-btns"
           }
         >
-          ბაბოლატი
+          Babolat
         </button>
         <button
           onClick={() => handleClick("brand", "Bullpadel")}
@@ -51,7 +51,7 @@ function Product() {
               : "filter-btns"
           }
         >
-          ბულპადელი
+          Bullpadel
         </button>
         <button
           onClick={() => handleClick("brand", "Wilson")}
@@ -61,7 +61,7 @@ function Product() {
               : "filter-btns"
           }
         >
-          ვილსონი
+          Wilson
         </button>
       </div>
       <div className="product-wrapper">
