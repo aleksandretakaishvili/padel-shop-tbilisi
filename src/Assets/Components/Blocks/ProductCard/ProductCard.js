@@ -12,7 +12,9 @@ function ProductCard(props) {
           {brand} {name}
         </h1>
         <p>წონა: {weigth} გრ</p>
-        <p>ფორმა: {shape}</p>
+        <p>
+          ფორმა: <span>{shape}</span>
+        </p>
       </div>
     </div>
   );

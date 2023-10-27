@@ -34,3 +34,8 @@
   font-size: 10px;
   line-height: 15px;
 }
+
+.product-info p span {
+  font-family: var(--english-font);
+  text-transform: uppercase;
+}
