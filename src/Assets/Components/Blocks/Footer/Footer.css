@@ -10,7 +10,7 @@ footer {
 }
 
 .footer-nav h1 {
-  font-family: var(--georgian-font);
+  font-family: var(--georgian-font-header);
   font-size: 13px;
 }
 

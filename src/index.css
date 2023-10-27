@@ -1,6 +1,7 @@
 :root {
-  --georgian-font: "BPG ExtraSquare Mtavruli", sans-serif;
-  --georgian-font2: "BPG Glaho Traditional", sans-serif;
+  --georgian-font-header: "BPG ExtraSquare Mtavruli", sans-serif;
+  --georgian-font-paragraph: "BPG Glaho Traditional", sans-serif;
+  --georgian-font-paragraph2: "BPG Nateli", sans-serif;
   --english-font: "Pathway Gothic One", sans-serif;
   --header-font-size: 20px;
   --paragraph-font-size: 15px;
