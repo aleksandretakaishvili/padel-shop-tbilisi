@@ -63,6 +63,16 @@ function Product() {
         >
           Wilson
         </button>
+        <button
+          onClick={() => handleClick("brand", "Vairo")}
+          className={
+            activeButton === "Vairo"
+              ? "filter-btns active-button"
+              : "filter-btns"
+          }
+        >
+          Vairo
+        </button>
       </div>
       <div className="product-wrapper">
         {filteredItems.map((product) => (
