@@ -30,11 +30,7 @@ function Footer() {
         </div>
         <div className="about-us">
           <h1>ჩვენს შესახებ</h1>
-          <p>
-            <span>Padel Shop Tbilisi</span> - პირველი ქართული ონლაინ მაღაზია,
-            სადაც პადელის მოყვარულებს საშუალება ეძლევათ შეიძინონ, პადელის
-            აქსესუარები.
-          </p>
+          <p>პადელის პირველი ონლაინ მაღაზია საქართველოში.</p>
         </div>
       </footer>
       <div className="bottom-footer">

@@ -53,7 +53,6 @@ const productData = {
       shape: "დაიმონდი",
       imgUrl: babolatTechnicalViper,
     },
-
     {
       id: "6",
       brand: "Bullpadel",

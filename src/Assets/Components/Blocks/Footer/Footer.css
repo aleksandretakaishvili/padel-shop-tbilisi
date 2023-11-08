@@ -31,7 +31,7 @@ footer {
 }
 
 .about-us {
-  width: 200px;
+  width: 120px;
 }
 
 .about-us h1 {
@@ -39,17 +39,12 @@ footer {
   font-size: 15px;
 }
 
-.about-us span {
-  font-family: var(--english-font);
-  font-size: 14px;
-}
-
 .about-us p {
+  color: var(--text-color);
   font-family: var(--georgian-font-paragraph1);
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 10px;
-  line-height: 13px;
-  letter-spacing: 1px;
+  line-height: 15px;
 }
 
 .bottom-footer {
@@ -62,7 +57,7 @@ footer {
 
 .bottom-footer p {
   font-family: var(--english-font);
-  font-size: 10px;
+  font-size: 12px;
   display: flex;
   align-items: flex-start;
 }
