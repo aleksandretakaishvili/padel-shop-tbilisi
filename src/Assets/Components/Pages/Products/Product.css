@@ -19,7 +19,7 @@
 .filter-btns {
   font-family: var(--english-font);
   font-size: 20px;
-  color: #0c2a33;
+  color: var(--text-color);
   background-color: #ebebeb;
   border-radius: 100px;
   border: none;
@@ -34,7 +34,7 @@
 
 .active-button {
   color: white;
-  background-color: #0c2a33;
+  background-color: #023047;
 }
 
 .product-page-wrapper img {

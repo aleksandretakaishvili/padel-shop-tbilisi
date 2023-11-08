@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--main-color);
-  /* border-bottom: 1px #fdf4f5 solid; */
   padding: 15px;
   z-index: 999;
 }
@@ -79,7 +78,7 @@ nav ul li a {
 }
 
 .active {
-  color: #cd4448;
+  opacity: 0.7;
 }
 
 .bottom-info {

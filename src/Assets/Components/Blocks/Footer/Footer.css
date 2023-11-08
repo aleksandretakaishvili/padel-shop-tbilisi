@@ -10,6 +10,7 @@ footer {
 }
 
 .footer-nav h1 {
+  color: var(--text-color);
   font-family: var(--georgian-font-header);
   font-size: 15px;
 }
@@ -35,6 +36,7 @@ footer {
 }
 
 .about-us h1 {
+  color: var(--text-color);
   font-family: var(--georgian-font-header);
   font-size: 15px;
 }
@@ -48,6 +50,7 @@ footer {
 }
 
 .bottom-footer {
+  color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,6 +70,6 @@ footer {
 }
 
 .bottom-footer svg {
+  color: var(--text-color);
   font-size: 12px;
-  color: black;
 }
