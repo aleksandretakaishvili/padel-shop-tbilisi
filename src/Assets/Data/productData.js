@@ -50,7 +50,7 @@ const productData = {
       brand: "Babolat",
       name: "Technical Viper",
       weigth: "375",
-      shape: "დაიმონდი",
+      shape: "Diamond",
       imgUrl: babolatTechnicalViper,
     },
     {
@@ -98,7 +98,7 @@ const productData = {
       brand: "Vairo",
       name: "9.1",
       weigth: "375",
-      shape: "დაიმონდი",
+      shape: "Diamond",
       imgUrl: vairo91,
     },
     {
@@ -106,7 +106,7 @@ const productData = {
       brand: "Vairo",
       name: "8.1",
       weigth: "375",
-      shape: "დაიმონდი",
+      shape: "Diamond",
       imgUrl: vairo81,
     },
   ],

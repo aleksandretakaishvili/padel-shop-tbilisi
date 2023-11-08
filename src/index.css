@@ -2,9 +2,10 @@
   --georgian-font-header: "BPG ExtraSquare Mtavruli", sans-serif;
   --georgian-font-paragraph: "BPG Nino Medium", sans-serif;
   --georgian-font-paragraph2: "BPG Nateli", sans-serif;
-  --english-font: "Pathway Gothic One", sans-serif;
-  --header-font-size: 20px;
-  --paragraph-font-size: 15px;
+  --english-main-font: "Pathway Gothic One", sans-serif;
+  --h1-font-size: 24px;
+  --h2-font-size: 20px;
+  --span-font-size: 11px;
   --main-color: #97bcc7;
   --text-color: #023047;
 }

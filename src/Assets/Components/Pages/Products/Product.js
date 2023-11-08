@@ -28,7 +28,7 @@ function Product() {
         <button
           onClick={() => handleClick()}
           className={
-            activeButton === "" ? "filter-btns active-button" : "filter-btns"
+            activeButton === "" ? "filter-btn active-button" : "filter-btn"
           }
         >
           All
@@ -37,8 +37,8 @@ function Product() {
           onClick={() => handleClick("brand", "Babolat")}
           className={
             activeButton === "Babolat"
-              ? "filter-btns active-button"
-              : "filter-btns"
+              ? "filter-btn active-button"
+              : "filter-btn"
           }
         >
           Babolat
@@ -47,8 +47,8 @@ function Product() {
           onClick={() => handleClick("brand", "Bullpadel")}
           className={
             activeButton === "Bullpadel"
-              ? "filter-btns active-button"
-              : "filter-btns"
+              ? "filter-btn active-button"
+              : "filter-btn"
           }
         >
           Bullpadel
@@ -57,8 +57,8 @@ function Product() {
           onClick={() => handleClick("brand", "Wilson")}
           className={
             activeButton === "Wilson"
-              ? "filter-btns active-button"
-              : "filter-btns"
+              ? "filter-btn active-button"
+              : "filter-btn"
           }
         >
           Wilson
@@ -66,9 +66,7 @@ function Product() {
         <button
           onClick={() => handleClick("brand", "Vairo")}
           className={
-            activeButton === "Vairo"
-              ? "filter-btns active-button"
-              : "filter-btns"
+            activeButton === "Vairo" ? "filter-btn active-button" : "filter-btn"
           }
         >
           Vairo

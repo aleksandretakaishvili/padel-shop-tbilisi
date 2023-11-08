@@ -9,7 +9,7 @@
 .about-padel-content h1 {
   color: var(--text-color);
   font-family: var(--georgian-font-header);
-  font-size: var(--header-font-size);
+  font-size: var(--h1-font-size);
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
@@ -19,7 +19,6 @@
 .paragraph-container p {
   color: black;
   font-family: var(--georgian-font-paragraph2);
-  font-size: var(--paragraph-font-size);
   line-height: 23px;
   letter-spacing: 0.7px;
   text-align: start;

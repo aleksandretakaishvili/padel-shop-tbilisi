@@ -15,16 +15,16 @@
 
 .product-info {
   width: 100%;
+  font-family: var(--english-main-font);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  font-family: var(--english-font);
 }
 
-.product-info h1 {
+.product-info h2 {
   color: var(--text-color);
-  font-size: 18px;
+  font-size: var(--h2-font-size);
   margin-bottom: 8px;
   margin-top: 10px;
   text-transform: uppercase;
@@ -33,11 +33,10 @@
 .product-info p {
   color: black;
   font-family: var(--georgian-font-paragraph);
-  font-size: 10px;
+  font-size: var(--span-font-size);
   line-height: 15px;
 }
 
 .product-info p span {
-  font-family: var(--english-font);
-  text-transform: uppercase;
+  color: black;
 }

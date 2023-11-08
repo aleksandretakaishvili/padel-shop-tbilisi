@@ -69,7 +69,7 @@ nav ul li {
 
 nav ul li a {
   color: var(--text-color);
-  font-size: var(--header-font-size);
+  font-size: var(--h2-font-size);
   font-family: var(--georgian-font-header);
   text-decoration: none;
   display: flex;

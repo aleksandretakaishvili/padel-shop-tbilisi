@@ -8,9 +8,9 @@ function ProductCard(props) {
     <div className="product-card-container">
       <img src={imgUrl} alt="" />
       <div className="product-info">
-        <h1>
+        <h2>
           {brand} {name}
-        </h1>
+        </h2>
         <p>წონა: {weigth} გრ</p>
         <p>
           ფორმა: <span>{shape}</span>

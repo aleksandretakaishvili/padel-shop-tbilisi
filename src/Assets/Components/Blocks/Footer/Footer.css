@@ -59,7 +59,7 @@ footer {
 }
 
 .bottom-footer p {
-  font-family: var(--english-font);
+  font-family: var(--english-main-font);
   font-size: 12px;
   display: flex;
   align-items: flex-start;

@@ -16,8 +16,8 @@
   display: none;
 }
 
-.filter-btns {
-  font-family: var(--english-font);
+.filter-btn {
+  font-family: var(--english-main-font);
   font-size: 20px;
   color: var(--text-color);
   background-color: #ebebeb;
@@ -28,7 +28,7 @@
   text-transform: uppercase;
 }
 
-.filter-btns:not(:last-child) {
+.filter-btn:not(:last-child) {
   margin-right: 10px;
 }
 
