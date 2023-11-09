@@ -64,11 +64,11 @@ nav ul {
 nav ul li {
   width: 100%;
   padding: 20px 15px;
-  border-bottom: 1px solid #c6c6c6;
+  border-bottom: 1px solid #6b8187;
 }
 
 nav ul li a {
-  color: var(--text-color);
+  color: black;
   font-size: var(--h2-font-size);
   font-family: var(--georgian-font-header);
   text-decoration: none;
@@ -78,11 +78,11 @@ nav ul li a {
 }
 
 .active {
-  opacity: 0.7;
+  color: #d63539;
 }
 
 .bottom-info {
-  font-family: var(--english-font);
+  font-family: var(--english-main-font);
   position: absolute;
   bottom: 0px;
   padding: 15px;
