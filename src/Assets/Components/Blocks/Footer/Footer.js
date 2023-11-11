@@ -54,13 +54,19 @@ function Footer() {
         <div className="right-side-container">
           <div className="right-side-header">
             <h2>
-              მეტი ინფორმაციისთვის <br></br>
+              ინფორმაციისთვის <br></br>
               შეავსეთ <BsFillArrowDownLeftSquareFill />
             </h2>
           </div>
           <div className="form-container">
-            <label htmlFor="">სახელი</label>
-            <input type="text" />
+            <div>
+              <label htmlFor="">სახელი</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label htmlFor="">სახელი</label>
+              <input type="text" />
+            </div>
           </div>
         </div>
       </footer>
